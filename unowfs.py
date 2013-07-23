@@ -32,7 +32,7 @@ version_error_msg = "Python 3.3 or later is required."
 try:
     import lzma
 except ImportError:
-    print(versio_error_msg)
+    print(version_error_msg)
     sys.exit(-1)
 
 MAGIC = b"owowowowowowowowowowowowowowowow"
